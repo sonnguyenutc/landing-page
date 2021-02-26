@@ -1,0 +1,217 @@
+/* --------------Reposive Header---------------- */
+
+
+/* ---Mobile---- */
+
+@media (max-width: 739px) {
+    .close, .open {
+        margin: 0 !important;
+    }
+    .right__img {
+        display: none;
+    }
+    .left__wrapper {
+        margin: 170px 0px;
+    }
+    .left__title {
+        font-size: 2.6rem;
+        margin-bottom: 10px;
+    }
+    .left__text {
+        font-size: 1rem;
+        margin-right: 30px;
+        margin-bottom: 40px;
+    }
+    .nav__logo {
+        font-size: 3rem;
+    }
+    .left__wrapper-active {
+        margin-left: 20px;
+    }
+    
+    /* Brand */
+    .brand__wrapper {
+        flex-wrap: wrap;
+    }
+    .brand__img-img {
+        margin:  0 50px;
+        display: block;
+    }
+    .brand__img {
+        margin: 0;
+        padding: 40px;
+    }
+    /* Products */
+    .products {
+        padding: 0 20px;
+    }
+
+    /* About us */
+    .about__left-wrap {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .about__wrap {
+        margin-left: 0px;
+        padding: 0 20px;
+    }
+    .pd100 {
+        padding-top: 50px;
+    }
+    .news__wrap {
+        padding: 20px;
+    }
+    .new__title {
+        font-size: 3rem;
+    }
+    .new__contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+    .new__input {
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .footer__list {
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0;
+
+    }
+    .footer__item {
+        margin: 12px 0px ;
+        text-align: center;
+    }
+    .open {
+        display: block;
+        margin-right: 30px;
+
+    }
+    .close {
+        display: none;
+        margin-right: 30px;
+
+    }
+
+}
+/* ---Tablet---- */
+@media (min-width: 740px ) and (max-width: 1023px) {
+    .home {
+        height: auto;
+    }
+    .open {
+        margin-right: 10px;
+        display: block;
+    }
+    .close {
+        margin-right: 10px;
+        display: none;
+    }
+    .content {
+        max-height: 425px;
+    }
+    .right__img {
+        height: 425px;
+        
+    }
+    .left__wrapper {
+        margin: 20px 0px;
+    }
+    .left__title {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .left__text {
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+    .nav__logo {
+        font-size: 3rem;
+    }
+    .left__wrapper-active {
+        margin-left: 20px;
+    }
+    
+    /* Brand */
+    .brand__wrapper {
+        flex-wrap: wrap;
+    }
+    .brand__img-img {
+        width: 100%;
+    }
+    .brand__img {
+        margin: 0 20px;
+        padding: 50px 0;
+    }
+    .about__left-wrap {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .about__wrap {
+        margin-left: 20px;
+    }
+}
+
+/* ----Tablet and Moblie */
+@media (max-width: 1023px) {
+    .close, .open {
+        position: absolute;
+        right: 0px;
+        transition: var(--animate);
+        right: 20px;
+    }
+    .hidden {
+        display: none;
+        transition: all 0.4s ease;
+    }
+    .show {
+        display: block;
+    }
+    .nav {
+        position: relative;
+    }
+    .nav__logo {
+        margin-left: 20px;
+    }
+    .nav__item:nth-child(1) {
+        margin-top: 20px
+    }
+    .nav__list {
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: var(--color-text);
+        top: var(--header);
+        transition: var(--animate);
+        padding-bottom: 0px;
+        display: none;
+        z-index: 1;
+    }
+    .nav__link {
+        color: var(--color-white);
+        font-size: 1rem;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .nav__item:nth-child(5) {
+        padding-bottom: 20px;
+    }
+    .nav__item:last-child {
+        padding-bottom: 30px;
+    }
+    .nav__link:hover::after {
+        width: 0;
+    }
+    
+
+
+}
+/* -----PC------- */ 
+@media (min-width: 1024px) {
+    
+}
+
+
